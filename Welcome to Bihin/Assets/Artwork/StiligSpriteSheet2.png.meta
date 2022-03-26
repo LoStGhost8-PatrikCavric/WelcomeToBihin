@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 309eb35b9da998049a0e3302c4d6b58a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1488869422146962786
+    second: StiligSpriteSheet2_0
+  - first:
+      213: 1280385318709883718
+    second: StiligSpriteSheet2_1
+  - first:
+      213: -160829729523569004
+    second: StiligSpriteSheet2_2
+  - first:
+      213: -646577346339612330
+    second: StiligSpriteSheet2_3
+  - first:
+      213: 1413854502456808333
+    second: StiligSpriteSheet2_4
+  - first:
+      213: 2193029801994380883
+    second: StiligSpriteSheet2_5
+  - first:
+      213: -7541220527536025033
+    second: StiligSpriteSheet2_6
+  - first:
+      213: -3095857960751998226
+    second: StiligSpriteSheet2_7
+  - first:
+      213: 6129833006225751901
+    second: StiligSpriteSheet2_8
+  - first:
+      213: 4287886257358605511
+    second: StiligSpriteSheet2_9
+  - first:
+      213: -1187258417816969556
+    second: StiligSpriteSheet2_10
+  - first:
+      213: 6002961146529671144
+    second: StiligSpriteSheet2_11
+  - first:
+      213: 3458051229491804282
+    second: StiligSpriteSheet2_12
+  - first:
+      213: -6993275990024668409
+    second: StiligSpriteSheet2_13
+  - first:
+      213: 6929107002703221325
+    second: StiligSpriteSheet2_14
+  - first:
+      213: 8105386651949019134
+    second: StiligSpriteSheet2_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 151
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a3dff1629765be0800000000000000
+      internalID: -1488869422146962786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 148
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643f351e9a7d4c110800000000000000
+      internalID: 1280385318709883718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 151
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eec6e863e94cdf0800000000000000
+      internalID: -160829729523569004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 147
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659dc974455e607f0800000000000000
+      internalID: -646577346339612330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d835607dd250f9310800000000000000
+      internalID: 1413854502456808333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 99
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35668b95cf43f6e10800000000000000
+      internalID: 2193029801994380883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d453a2e3385790800000000000000
+      internalID: -7541220527536025033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 101
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeadf46569d4905d0800000000000000
+      internalID: -3095857960751998226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 54
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ffc8454aa811550800000000000000
+      internalID: 6129833006225751901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 53
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc832735d1a18b30800000000000000
+      internalID: 4287886257358605511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 54
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae5d6562c2068fe0800000000000000
+      internalID: -1187258417816969556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e76f539b5dce4350800000000000000
+      internalID: 6002961146529671144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7836fc85477dff20800000000000000
+      internalID: 3458051229491804282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bbf4ef984e2fe90800000000000000
+      internalID: -6993275990024668409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 11
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421cc26b12292060800000000000000
+      internalID: 6929107002703221325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StiligSpriteSheet2_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2d9c373e1c7070800000000000000
+      internalID: 8105386651949019134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

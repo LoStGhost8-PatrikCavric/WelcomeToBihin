@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: f128a9def3b91cd4ea6d484c618fa069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4618090944563683976
+    second: BCGuySpritsheet_0
+  - first:
+      213: -2998462026321279732
+    second: BCGuySpritsheet_1
+  - first:
+      213: 2642304266808376948
+    second: BCGuySpritsheet_2
+  - first:
+      213: 5156153681688190405
+    second: BCGuySpritsheet_3
+  - first:
+      213: 6246055330028277044
+    second: BCGuySpritsheet_4
+  - first:
+      213: -6906180074960384441
+    second: BCGuySpritsheet_5
+  - first:
+      213: 5577401522889655361
+    second: BCGuySpritsheet_6
+  - first:
+      213: -480523809090422746
+    second: BCGuySpritsheet_7
+  - first:
+      213: 7392236615840641247
+    second: BCGuySpritsheet_8
+  - first:
+      213: -1200059350789478332
+    second: BCGuySpritsheet_9
+  - first:
+      213: -1160599275427464614
+    second: BCGuySpritsheet_10
+  - first:
+      213: -7911383117072335025
+    second: BCGuySpritsheet_11
+  - first:
+      213: 7854878229125750188
+    second: BCGuySpritsheet_12
+  - first:
+      213: 569891226235449309
+    second: BCGuySpritsheet_13
+  - first:
+      213: 2057512752376194518
+    second: BCGuySpritsheet_14
+  - first:
+      213: 8589182300989736031
+    second: BCGuySpritsheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BCGuySpritsheet_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 151
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d55dce0ce39efb0800000000000000
+      internalID: -4618090944563683976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 148
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c054f907ca25366d0800000000000000
+      internalID: -2998462026321279732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 151
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ebc9b2bb95ba420800000000000000
+      internalID: 2642304266808376948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 148
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdd85c74765e8740800000000000000
+      internalID: 5156153681688190405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 99
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d45c9ca327ea650800000000000000
+      internalID: 6246055330028277044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0b15ffc15820a0800000000000000
+      internalID: -6906180074960384441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 99
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1448f8d7229e66d40800000000000000
+      internalID: 5577401522889655361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 97
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6283c0d3426d459f0800000000000000
+      internalID: -480523809090422746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 54
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd031de4900869660800000000000000
+      internalID: 7392236615840641247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 53
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448aecee068885fe0800000000000000
+      internalID: -1200059350789478332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 54
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5af19dab19b4efe0800000000000000
+      internalID: -1160599275427464614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 53
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f71e8a8fe153290800000000000000
+      internalID: -7911383117072335025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 7
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad5df8e122220d60800000000000000
+      internalID: 7854878229125750188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf20640d09a8e700800000000000000
+      internalID: 569891226235449309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 7
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5283672f0cd8c10800000000000000
+      internalID: 2057512752376194518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BCGuySpritsheet_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c0999bc7e23770800000000000000
+      internalID: 8589182300989736031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
