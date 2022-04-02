@@ -5576,7 +5576,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6488,6 +6488,7 @@ GameObject:
   - component: {fileID: 1396009805}
   - component: {fileID: 1396009804}
   - component: {fileID: 1396009803}
+  - component: {fileID: 1396009806}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -6529,7 +6530,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!95 &1396009800
 Animator:
   serializedVersion: 3
@@ -6538,7 +6539,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396009797}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b68c7b342381fc447b79804fffced968, type: 2}
   m_CullingMode: 0
@@ -6611,7 +6612,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6765,6 +6766,25 @@ MonoBehaviour:
     - We wear lights on ourselves so we can see during the dark...
   isDialogueTrigger: 0
   isInDistance: 0
+--- !u!114 &1396009806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396009797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0e1e19e7e8c6e46bfdc6dc52d9db8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  bounds: {fileID: 0}
+  width: 2
+  height: 2
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1430914957
 GameObject:
   m_ObjectHideFlags: 0
@@ -7155,7 +7175,7 @@ GameObject:
   - component: {fileID: 1703942970}
   - component: {fileID: 1703942969}
   - component: {fileID: 1703942968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}

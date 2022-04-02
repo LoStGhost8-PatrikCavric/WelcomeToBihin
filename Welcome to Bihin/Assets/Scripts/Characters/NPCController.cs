@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCController : Interactable
+public class NPCController : MonoBehaviour
 {
     private Vector3 directionVector;
     private Transform myTransform;
@@ -11,8 +11,14 @@ public class NPCController : Interactable
     private Animator anim;
     public Collider2D bounds;
 
+    Vector3 playerPos, npcPos;
+    //Vector3 delta = new Vector3(player);
+    public float width, height;
+    public LayerMask whatIsPlayer;
+
     void Start()
     {
+        npcPos = transform.position;
         anim = GetComponent<Animator>();
         myTransform = GetComponent<Transform>();
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -21,14 +27,67 @@ public class NPCController : Interactable
 
     void Update()
     {
-        if (!playerInRange)
+        //if (!playerInRange)
+        //{
+            
+        //    Move();
+        //}
+        if (CheckForPlayer())
         {
-            Move();
+            Debug.Log("player in range");
+            LookAtPlayer();
         }
         
     }
+    //void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireCube(npcPos, new Vector3(width, height, 1));
+    //}
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(npcPos, new Vector3(width, height, 1));
+    }
 
+    bool CheckForPlayer()
+    {
+        bool playerDetected = Physics2D.OverlapBox(npcPos, new Vector2(width, height), 0, whatIsPlayer);
 
+        return playerDetected;
+    }
+    void LookAtPlayer()
+    {
+        
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        Vector3 delta = new Vector3(playerPos.x - npcPos.x, playerPos.y - npcPos.y, 0.0f);
+        delta = delta.normalized;
+        //Debug.Log(delta);
+        //Quaternion rotation = Quaternion.LookRotation(delta);
+
+        //gameObject.transform.rotation = rotation;
+        if (delta.y <0  && delta.y < delta.x)
+        {
+           // Debug.Log("down");
+            anim.SetFloat("LookDir", 1f);
+        }
+        else if (delta.x > 0 && delta.y < delta.x)
+        {
+            //Debug.Log("right");
+            anim.SetFloat("LookDir", 2f);
+        }
+        else if (delta.y >0 && delta.y > delta.x)
+        {
+           // Debug.Log("up");
+            anim.SetFloat("LookDir", 3f);
+        }
+        else if (delta.x < 0 && delta.y > delta.x)
+        {
+            //Debug.Log("left");
+            anim.SetFloat("LookDir", 4f);
+        }
+
+    }
     private void Move()
     {
         Vector3 temp = myTransform.position + directionVector * speed * Time.deltaTime;
@@ -42,9 +101,6 @@ public class NPCController : Interactable
         }
 
     }
-
-
-    
     void ChangeDirection()
     {
         int direction = Random.Range(0, 4);
